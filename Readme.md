@@ -1,24 +1,47 @@
-# Python String Manipulation Activity
+# Prelim: Modify and Calculate from a String
+
+## Objective:
+
+### Create a Python program that:
+
+1. Takes a user-inputted string containing numbers separated by spaces.
+2. Uses `.split()` to extract the numbers.
+3. Uses `.replace()` to modify a specific digit (e.g., replace all `0` with `5`).
+4. Converts the modified numbers back to integers and calculates their sum.
+
+=====
 
 ## Instructions:
 
-### Write a Python program that does the following:
+1. Ask the user to enter numbers separated by spaces (e.g., "`120 305 789`").
+2. Split the string into a list of numbers using `.split()`.
+3. Use `.replace()` to replace all `0s` with `5`.
+4. Convert the modified numbers to integers.
+5. Calculate and display the sum of the modified numbers.
 
-1. Take a `user input` of a sentence.
-2. Slice the `first five characters` from the input and display them.
-3. Replace all occurrences of the letter `"a"` with `"@"`.
-4. Convert the entire string to `uppercase`.
-5. `Split` the sentence into a list of words.
-6. Concatenate the `first` and `last` words from the list to form a new word.
-7. Display all the results.
+====
+Example Outputs:
+Output 1:
 
-Example Result:
+```yaml
+Enter numbers: 120 305 789
+Modified numbers: 125, 355, 789
+Sum of modified numbers: 1269
+```
 
-```bash
-Enter a sentence: Python is an amazing language
-Sliced (first 5 characters): Pytho
-Replaced 'a' with '@': Python is @n @m@zing l@ngu@ge
-Uppercase: PYTHON IS AN AMAZING LANGUAGE
-Split words: ['Python', 'is', 'an', 'amazing', 'language']
-Concatenated first and last words: Pythonlanguage
+Output 2:
+
+```yaml
+Enter numbers: 10 200 304
+Modified numbers: 15, 255, 354
+Sum of modified numbers: 624
+```
+
+## Hint
+
+```python
+total_sum = sum(modified_numbers_int)
+
+print("Modified numbers:" + modified_numbers)
+print("Sum of modified numbers:", total_sum)
 ```
