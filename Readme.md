@@ -9,7 +9,7 @@
 3. Uses `.replace()` to modify a specific digit (e.g., replace all `0` with `5`).
 4. Converts the modified numbers back to integers and calculates their sum.
 
-===
+---
 
 ## Instructions:
 
@@ -19,7 +19,7 @@
 4. Convert the modified numbers to integers.
 5. Calculate and display the sum of the modified numbers.
 
-===
+---
 
 Example Outputs:
 Output 1:
