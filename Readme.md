@@ -1,7 +1,5 @@
 # Prelim: Modify and Calculate from a String
 
-zeta
-
 ## Objective:
 
 ### Create a Python program that:
