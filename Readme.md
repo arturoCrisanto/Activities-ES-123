@@ -1,7 +1,5 @@
 # Prelim: Modify and Calculate from a String
 
-## for vannie rivas
-
 ## Objective:
 
 ### Create a Python program that:
