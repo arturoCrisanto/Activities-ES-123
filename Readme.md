@@ -14,8 +14,8 @@
 ## Instructions:
 
 1. Ask the user to enter numbers separated by spaces (e.g., "`120 305 789`").
-2. Split the string into a list of numbers using `.split()`.
-3. Use `.replace()` to replace all `0s` with `5`.
+2. Use `.replace()` to replace all `0s` with `5`.
+3. Split the string into a list of numbers using `.split()`.
 4. Convert the modified numbers to integers.
 5. Calculate and display the sum of the modified numbers.
 
