@@ -42,8 +42,8 @@ Sum of modified numbers: 624
 
 ```python
 numbers = [int(num) for num in numbers_list]
-total_sum = sum(modified_numbers_int)
+total_sum = sum(numbers)
 
-print("Modified numbers:" + modified_numbers)
+print("Modified numbers:" + number_list)
 print("Sum of modified numbers:", total_sum)
 ```
