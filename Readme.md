@@ -41,6 +41,7 @@ Sum of modified numbers: 624
 ## Hint
 
 ```python
+numbers = [int(num) for num in numbers_list]
 total_sum = sum(modified_numbers_int)
 
 print("Modified numbers:" + modified_numbers)
