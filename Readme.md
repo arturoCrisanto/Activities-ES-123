@@ -1,6 +1,6 @@
 # 📌 Instructions:
 
-## create your own riddle and follow the instruction below
+## Create your `Own riddle` and follow the instruction below
 
 ### The program should display the riddle:
 
@@ -8,9 +8,9 @@
 🔎 Riddle: I have keys but open no locks. What am I?
 ```
 
-- The user must guess the answer.
-- If the answer is wrong, the program keeps asking.
-- If the user enters the correct answer ("keyboard"), print:
+- The user must `guess` the answer.
+- If the answer is `wrong`, the program `keeps asking`.
+- If the user enters the `correct` answer ("keyboard"), print:
 
 ```bash
 Correct! 🎉 You solved the riddle!
