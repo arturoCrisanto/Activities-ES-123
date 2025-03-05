@@ -1,13 +1,12 @@
 # Even or Odd Checker
 
-`Objective:` Write a Python program that asks the user to enter `5 numbers` and determines
-whether each number is `even` or `odd` using a for loop and nested if statements.
+`Objective:` Write a Python program that asks the user to enter `5 numbers` and determines whether each number is `even` or `odd` using a for loop and nested if statements.
 
 ## Instructions:
 
-- Use a for loop to iterate through 5 numbers.
-- Ask the user to input a number.
-- Use a nested if statement to check if the number is even or odd.
+- Use a `for loop` to iterate through 5 numbers.
+- Ask the user to `input` a number.
+- Use a `nested if` statement to check if the number is even or odd.
 - Display the number and its classification.
 
 ---
