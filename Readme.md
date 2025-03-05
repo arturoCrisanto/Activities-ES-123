@@ -1,29 +1,35 @@
-# 📌 Instructions:
+# Even or Odd Checker
 
-## Create your `Own riddle` and follow the instruction below
+`Objective:` Write a Python program that asks the user to enter `5 numbers` and determines
+whether each number is `even` or `odd` using a for loop and nested if statements.
 
-### The program should display the riddle:
+## Instructions:
 
-```bash
-🔎 Riddle: I have keys but open no locks. What am I?
-```
-
-- The user must `guess` the answer.
-- If the answer is `wrong`, the program `keeps asking`.
-- If the user enters the `correct` answer ("keyboard"), print:
-
-```bash
-Correct! 🎉 You solved the riddle!
-```
+- Use a for loop to iterate through 5 numbers.
+- Ask the user to input a number.
+- Use a nested if statement to check if the number is even or odd.
+- Display the number and its classification.
 
 ---
 
 Sample Output:
 
 ```bash
-🔎 Riddle: I have keys but open no locks. What am I?
-Your guess: door
-Your guess: piano
-Your guess: keyboard
-Correct! 🎉 You solved the riddle!
+
+Enter number 1: 10
+Number 1: 10 is Even.
+
+Enter number 2: 7
+Number 2: 7 is Odd.
+
+Enter number 3: 22
+Number 3: 22 is Even.
+
+Enter number 4: 19
+Number 4: 19 is Odd.
+
+Enter number 5: 8
+Number 5: 8 is Even.
 ```
+
+Hint: use `modulo` operator
