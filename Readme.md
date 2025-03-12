@@ -1,34 +1,53 @@
-# Even or Odd Checker
+# Activity: Contact List
 
-`Objective:` Write a Python program that asks the user to enter `5 numbers` and determines whether each number is `even` or `odd` using a for loop and nested if statements.
+Create a simple program to store and display contacts using a list of dictionaries.
 
 ## Instructions:
 
-- Use a `for loop` to iterate through 5 numbers.
-- Ask the user to `input` a number.
-- Use a `nested if` statement to check if the number is even or odd.
-- Display the number and its classification.
+1. Each contact should have:
 
----
+- "`name`" (string)
+- "`phone`" (string)
 
-Sample Output:
+2. The user should be able to:
+
+- `View` all contacts
+- `Add` a new contact
+- `Exit` the program
+
+## Example Output:
 
 ```bash
+1. View Contacts
+2. Add Contact
+3. Exit
+Enter your choice: 1
 
-Enter number 1: 10
-Number 1: 10 is Even.
+Contacts List:
+--------------
+Name: Alice, Phone: 123-4567
+Name: Bob, Phone: 987-6543
 
-Enter number 2: 7
-Number 2: 7 is Odd.
+1. View Contacts
+2. Add Contact
+3. Exit
+Enter your choice: 2
+Enter contact name: Charlie
+Enter phone number: 555-1234
+Contact added successfully!
 
-Enter number 3: 22
-Number 3: 22 is Even.
-
-Enter number 4: 19
-Number 4: 19 is Odd.
-
-Enter number 5: 8
-Number 5: 8 is Even.
+1. View Contacts
+2. Add Contact
+3. Exit
+Enter your choice: 3
+Goodbye!
 ```
 
-Hint: use `modulo` operator
+Sample list with Dictionaries:
+
+```bash
+contacts = [
+    {"name": "Alice", "phone": "123-4567"},
+    {"name": "Bob", "phone": "987-6543"}
+]
+```
