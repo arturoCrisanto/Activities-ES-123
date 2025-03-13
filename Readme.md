@@ -51,3 +51,7 @@ contacts = [
     {"name": "Bob", "phone": "987-6543"}
 ]
 ```
+
+## hint:
+
+use `while loop` for the looping and put the conditions inside
