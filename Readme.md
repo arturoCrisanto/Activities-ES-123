@@ -1,44 +1,35 @@
-# Activity: Simple Student Records
+# Exam: Employee Salary Bonus System
 
-Objective:
+## Objective:
 
-Learn how to store, access, and modify data using nested lists with dictionaries.
+Create a Python program that stores employee details and `increases` their salary by `10%`.
 
----
+### Instructions:
 
-## Instructions:
+1. Create a list of dictionaries named employees.
 
-1. Create a list containing student records (each student as a dictionary).
-2. Display all students in the list.
-3. Modify a student’s grade.
-4. Calculate and print a student’s average grade.
+- Each dictionary should contain the following employee details:
 
-## Copy this Sample List
-
-```bash
-students = [
-    {"name": "Alice", "age": 22, "course": "CS", "grades": [85, 90, 88]},
-    {"name": "Bob", "age": 24, "course": "IT", "grades": [78, 82, 80]}
+```python
+employees = [
+   {"name": "Alice", "position": "Manager", "salary": 50000},
+   {"name": "Bob", "position": "Developer", "salary": 40000},
+   {"name": "Charlie", "position": "Intern", "salary": 20000},
 ]
 ```
 
-### Expected Output:
+2. Increase each employee's salary by 10%.
 
 ```bash
-Name: Alice, Age: 22, Course: CS, Grades: [85, 90, 88]
-Name: Bob, Age: 24, Course: IT, Grades: [78, 82, 80]
-
-Alice's updated grades: [85, 95, 88]
-Alice's Average Grade: 89.33
+*=1.10
 ```
 
----
+- Use a loop to update the "salary" for each employee.
 
-Hint:
-use sum to calculate all
+Expected Output:
 
-```python
-sum(students[0]["grades"])
+```bash
+Alice - New Salary: $55000
+Bob - New Salary: $44000
+Charlie - New Salary: $22000
 ```
-
-and divide it by `3`
