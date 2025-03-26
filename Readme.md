@@ -29,7 +29,7 @@ employees = [
 Expected Output:
 
 ```bash
-Alice - New Salary: $55000
-Bob - New Salary: $44000
-Charlie - New Salary: $22000
+Alice - New Salary: P55000
+Bob - New Salary: P44000
+Charlie - New Salary: P22000
 ```
