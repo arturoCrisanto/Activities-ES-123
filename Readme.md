@@ -18,10 +18,10 @@ numbers = [4, 8, 15, 16, 23, 42]
 
 3. Create and call the following user-defined functions:
 
-a. print_totalNumbers(numbers)
-b. print_maximumNumber(numbers)
-c. print_mininumNumber(numbers)
-d. print_count(numbers)
+- print_totalNumbers(numbers)
+- print_maximumNumber(numbers)
+- print_mininumNumber(numbers)
+- print_count(numbers)
 
 ## Expected Output
 
