@@ -1,35 +1,33 @@
-# Exam: Employee Salary Bonus System
+# Activity Title: "Simple Number Analyzer"
 
 ## Objective:
 
-Create a Python program that stores employee details and `increases` their salary by `10%`.
+Learn how to create user-defined functions that use Python's built-in functions.
 
-### Instructions:
+---
 
-1. Create a list of dictionaries named employees.
+Instructions:
 
-- Each dictionary should contain the following employee details:
+1. Open your Python editor and create a file named `simple_analyzer.py`.
+
+2. Use the following predefined list of numbers:
 
 ```python
-employees = [
-   {"name": "Alice", "position": "Manager", "salary": 50000},
-   {"name": "Bob", "position": "Developer", "salary": 40000},
-   {"name": "Charlie", "position": "Intern", "salary": 20000},
-]
+numbers = [4, 8, 15, 16, 23, 42]
 ```
 
-2. Increase each employee's salary by 10%.
+3. Create and call the following user-defined functions:
+
+a. print_totalNumbers(numbers)
+b. print_maximumNumber(numbers)
+c. print_mininumNumber(numbers)
+d. print_count(numbers)
+
+## Expected Output
 
 ```bash
-*=1.10
-```
-
-- Use a loop to update the "salary" for each employee.
-
-Expected Output:
-
-```bash
-Alice - New Salary: $55000
-Bob - New Salary: $44000
-Charlie - New Salary: $22000
+Total: 108
+Maximum: 42
+Minimum: 4
+Count: 6
 ```
