@@ -36,4 +36,4 @@ Average: 86.25
 Final Grade: B
 ```
 
-Hint: use `Round()` function to adjust the decimal place of the score
+Hint: use `Round()` function to adjust the decimal place of the score in the `calculate_average(scores):` function
