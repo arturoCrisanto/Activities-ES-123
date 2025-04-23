@@ -36,4 +36,10 @@ Average: 86.25
 Final Grade: B
 ```
 
+formula:
+
+```bash
+sum(score) / len(score)
+```
+
 Hint: use `Round()` function to adjust the decimal place of the score in the `calculate_average(scores):` function
