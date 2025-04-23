@@ -1,33 +1,39 @@
-# Activity Title: "Simple Number Analyzer"
+## Instructions:
 
-## Objective:
+1. Create a Python file (e.g., student_grading.py).
 
-Learn how to create user-defined functions that use Python's built-in functions.
+2. Define the following functions:
 
----
+- `calculate_average(scores):` Accepts a list of numbers (scores) and returns the average.
 
-Instructions:
+- `determine_grade(average):` Accepts the average score and returns a letter grade based on the criteria:
 
-1. Open your Python editor and create a file named `simple_analyzer.py`.
+  - 90 and above: A
 
-2. Use the following predefined list of numbers:
+  - 80-89: B
 
-```python
-numbers = [4, 8, 15, 16, 23, 42]
-```
+  - 70-79: C
 
-3. Create and call the following user-defined functions:
+  - 60-69: D
 
-- print_totalNumbers(numbers)
-- print_maximumNumber(numbers)
-- print_mininumNumber(numbers)
-- print_count(numbers)
+  - Below 60: F
 
-## Expected Output
+3. In the main part of the program, define a student's name and their list of scores.
+
+## Variables
 
 ```bash
-Total: 108
-Maximum: 42
-Minimum: 4
-Count: 6
+student_name = "Alex"
+student_scores = [85, 92, 78, 90]
 ```
+
+## Example output
+
+```bash
+Student: Alex
+Scores: [85, 92, 78, 90]
+Average: 86.25
+Final Grade: B
+```
+
+Hint: use `Round()` function to adjust the decimal place of the score
